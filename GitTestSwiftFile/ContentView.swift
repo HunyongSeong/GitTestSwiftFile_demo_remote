@@ -15,9 +15,11 @@ struct MainViewNameChange: View {
             
             Image(systemName: "globe")
                 .imageScale(.large)
+            //add.something
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
             Text("커밋 테스트")
+            //add background color...
 
         }
         .padding()

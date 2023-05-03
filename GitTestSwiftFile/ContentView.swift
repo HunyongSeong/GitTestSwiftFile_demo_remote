@@ -11,7 +11,8 @@ struct MainViewNameChange: View {
     
     // MARK: - Body 줄 변화시키기
     var body: some View {
-        VStack {
+        VStack { // 왼쪽 화살표 클릭후 Disccard 하면 그냥 수정한 부분이 전체적으로 되돌려짐. // Don't change commit 누르면, 그냥 회색처리 되면서 반영이 안됨. <- 이거는 don't change 로 해보겠음
+            
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)

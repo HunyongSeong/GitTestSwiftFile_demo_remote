@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainViewNameChange: View {
     
     // MARK: - Body 줄 변화시키기
     var body: some View {
@@ -25,6 +25,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-    }
+        MainViewNameChange()
+    }// 이 주석은 제외 하기 뭐야  이렇게하면 이것은 커밋이 안되는거야 ?? 신기하네..
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct GitTestSwiftFileApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainViewNameChange()
         }
     }
 }
